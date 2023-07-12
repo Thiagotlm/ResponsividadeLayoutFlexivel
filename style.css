@@ -65,3 +65,30 @@ footer{
     text-align: center;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 500px) {
+    .details{
+        flex-direction: column;
+        width: 300px;
+        margin-left: -2rem;
+    }
+
+    header{
+        position: fixed;
+    }
+
+    .image-card{
+        flex-basis: 200px;   
+    }
+
+}
+/*ajustando para o modo paisagem*/
+@media screen and (orientation: landscape){
+
+}
+
+@media screen and (pointer: coarse){
+
+}
+
+/*texto responsivo*/
